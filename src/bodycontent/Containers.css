@@ -108,9 +108,61 @@ h6{
 }
 
  
+  
     
     
-    
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .parent__card  {
+    display: contents;
+
+}
+.child__card1, .child__card2, .child__card3 {
+
+    width: 20rem;
+    margin-top: 15rem;
+    height: 90vh;
+}
+.container1, .container2, .container3 {
+    position: absolute;
+    bottom: 10rem;
+    left: -3rem;
+}
+.row__card{
+    position: absolute;
+    right: 2.5rem;
+    bottom: -1.5rem;
+}
+img, svg {
+    margin-top: -325px !important;
+}
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+}
     
   
 
@@ -118,46 +170,4 @@ h6{
 
 
 
-
-/*@media only screen and (max-width: 600px) {
-    .parent__card {
-        margin-top: 14.5rem;
-    }
-    .child__card1{
-        width: 100%;
-    }
-    .child__card2{
-        width: 100%;
-    }
-    .child__card3{
-        width: 100%;
-    }
-    .parent__card {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        background-color: #C0DFD9 !important;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-    .head1{
-        font-size: 15px;
-    }
-    
-}*/
-
-/* Containers.css */
-
-/* Media Query for screens smaller than 768px */
-/*@media (max-width: 767px) {
-
-    .parent__card {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .child__card1, .child__card2, .child__card3 {
-        margin: 20px 0;
-    }
-}*/
 
