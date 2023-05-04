@@ -9,30 +9,30 @@ import logo from "../images/image1.jpg";
 const Containers = () => {
     const [waterlevel, setWaterlevel] = useState();
     const [motorstatus, setMotorstatus] = useState();
-    const rock=()=>{
-        if (waterlevel===1) {
-            return(
-              <h6>1 FEET </h6>
-            );
-          } else if (waterlevel===0.25) {
-            return(
-                <h5>0.25 FEET</h5>
-              );
-         }  else if (waterlevel===0.5) {
-                return(
-                    <h5>0.5 FEET</h5>
-                  )  ; 
-        }   else if (waterlevel===0.75) {
-                    return(
-                        <h5>0.75 FEET</h5>
-                      )        
-        }   else {
-                 return(
-                    <p>GG</p>
-                 )
-          }
-
-    } 
+    const rock = () => {
+        let message;
+        if (waterlevel === 1) {
+          message = "1 FEET";
+        } else if (waterlevel === 0.25) {
+          message = "0.25 FEET";
+        } else if (waterlevel === 0.5) {
+          message = "0.5 FEET";
+        } else if (waterlevel === 0.75) {
+          message = "0.75 FEET";
+        } else {
+          message = "loading";
+        }
+      
+        
+        if ('speechSynthesis' in window) {
+          const synth = window.speechSynthesis;
+          const utterance = new SpeechSynthesisUtterance(message);
+          synth.speak(utterance);
+        }
+      
+        return <h5>{message}</h5>;
+      };
+      
     useEffect(() => {
       setInterval(() => {
           fetch("https://underpassbackend.onrender.com/api/sensordata")
@@ -53,7 +53,11 @@ const Containers = () => {
     const progress = (level / maxLevel) * 100;
     const title1= rock();
     return (
-         <ProgressBar  now={progress} label={title1 || title} 
+         <ProgressBar  now={progress} label={title1 || title} animation={{
+            enable: true,
+            duration: 2000,
+            delay: 0
+        }}
           />
    
     );
@@ -64,7 +68,6 @@ const Containers = () => {
     return (
         <div>
             <Card className="parent__card">
-               
                 <Card className="child__card1">
                     <div className="row row__main__card">
                         <div className="col-12 col__twelve__text">
@@ -91,9 +94,6 @@ const Containers = () => {
                             <Input label="" value={motorstatus} className="rainbow-p-around_medium  input__text box abc" disabled />
                         </div>
                     </div>
-                    
-                    
-                    
                 </Card>
                 <Card className="child__card2">
                     <div className="row row__main__card">

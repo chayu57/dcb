@@ -117,7 +117,7 @@ h6{
     display: contents;
 
 }
-.child__card1, .child__card2, .child__card3 {
+.child__card1,.child__card2, .child__card3 {
 
     width: 20rem;
     margin-top: 15rem;
