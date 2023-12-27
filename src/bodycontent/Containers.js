@@ -48,6 +48,8 @@ const Containers = () => {
       }, 2000);
   }, []);
 
+  
+
 
   const LevelBox=({ title, level, maxLevel }) =>{
     const progress = (level / maxLevel) * 100;
