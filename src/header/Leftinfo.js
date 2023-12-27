@@ -8,7 +8,7 @@ const Leftinfo = () => {
                {/*<Avatar className="user__logo" src={userlogo} />*/}
             </div>
             <div className="user__details__container">
-                <h4 className="user__info__name">VISHNU INSTITUTE OF TECHNOLOGY</h4>
+                <h4 className="user__info__name"></h4>
             </div>
         </div>
     );
