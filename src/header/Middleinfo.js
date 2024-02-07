@@ -2,7 +2,7 @@ import "./Middleinfo.css"
 const Middleinfo = () => {
     return (
         <p className="middleinfo__text">
-            UNDERPASS
+            DC UNIVERSAL BOX
         </p>
         
     );

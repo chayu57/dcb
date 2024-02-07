@@ -7,21 +7,11 @@
     flex-wrap: nowrap;
 }
 
-.rightinfo__container {
-    width: 25%;
-    color: white;
-    background: linear-gradient(120deg, #1abc9c,#8e44ad, #3498db);
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black, 0 0 10px black;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    text-align: center;
-}
+
 
 .middleinfo__container {
-    width: 50%;
-    background-color:#272525;
+    width: 100%;
+    background-color:skyblue;
     text-shadow: 1px 1px 2px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
     height: 100%;
     display: flex;
@@ -30,16 +20,7 @@
     text-align: center;
 }
 
-.leftinfo__container {
-    width: 25%;
-    background: linear-gradient(120deg, #1abc9c,#8e44ad, #3498db);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black, 0 0 10px black;
-    flex-wrap: nowrap;
-    text-align: center;
-}
+
 
 
 /* Extra small devices (phones, 600px and down) */
@@ -48,10 +29,7 @@
         flex-wrap: wrap;
     }
 
-    .rightinfo__container {
-        width: 100%;
-        text-align: center;
-    }
+    
 
     .middleinfo__container {
         width: 100%;
@@ -59,11 +37,7 @@
         text-align: center;
     }
 
-    .leftinfo__container {
-        width: 100%;
-        background-color: #ef9273;
-        text-align: center;
-    }
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 820px) {
@@ -76,17 +50,7 @@
         flex-wrap: nowrap;
     }
 
-    .rightinfo__container {
-        width: 30%;
-        color: white;
-        background-color: red;
-        text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black, 0 0 10px black;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
+    
 
     .middleinfo__container {
         width: 40%;
@@ -99,16 +63,7 @@
         text-align: center;
     }
 
-    .leftinfo__container {
-        width: 30%;
-        background-color: red;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black, 0 0 10px black;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
+    
 
 }
 
@@ -122,17 +77,7 @@
         flex-wrap: nowrap;
     }
 
-    .rightinfo__container {
-        width: 30%;
-        color: white;
-        background-color: red;
-        text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black, 0 0 10px black;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
+    
 
     .middleinfo__container {
         width: 40%;
@@ -145,16 +90,6 @@
         text-align: center;
     }
 
-    .leftinfo__container {
-        width: 30%;
-        background-color: red;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black, 0 0 10px black;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

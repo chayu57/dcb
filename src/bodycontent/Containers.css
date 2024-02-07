@@ -1,173 +1,28 @@
-.parent__card {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    background: linear-gradient(120deg, #7f7f7f, #191919, #7f7f7f) !important;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-}
-.child__card1,
-.child__card2,
-.child__card3 {
-    width: 30%;
-    margin: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 12rem;
-    flex-wrap: wrap;
-    display: flex;
-    background-color: black !important;
-    height: 75vh;
-    
-}
-.container1,.container2,.container3{
-   
-   position: absolute;
-   bottom: 4rem;
-   left: -7rem;
-}
+.child{
 
-.head1{
-    text-align: center;
-    width: 100%;
-    padding-top: 10px;
-    font-size: 30px;
-    color:#d5c4ff;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgba(214, 239, 238, 0.575), 0 0 1px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0), 0 0 1px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+    background-color: lightgreen !important;
+    margin-top: 11rem;
+    width: 50%;
+    height: 30rem;
+    margin-left: 25%;
 }
-.child__card1__head{
-    text-align: center;
-}
-.row__main__card{
-    width: 100%;
-    text-align: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
-.col__text{
-    font-weight: bolder;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgba(214, 239, 238, 0.575), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
-    margin-top: 0.5rem;
-    
-}
-.col__twelve__text{
-    font-weight: bolder;
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgba(214, 239, 238, 0.575), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
-    text-align: center !important;
-}
-.row__card{
-    width: 100%;
-    text-align: center;
-    width: 15rem;
-    position: absolute;
-    right: 1rem;
-    bottom: 3rem;
-    height: 10rem
-}
-    
-
-.input__text{
-    border-style: solid;
-    border-color: #00bfff;
-    border-radius: 5rem;
-    border-width: 0.2px;
-}
-.box div input {
-    color: white !important;
-    text-shadow: 1px 1px 2px black, 0 0 25px rgba(214, 239, 238, 0.575), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
-    text-align: center;
-    font-weight: bolder;
-    background-color:#0E0E10 !important;
-}
-
-.progress {
+.xy{
     width: 10rem;
-    --bs-progress-height: 10rem;
-    transform:rotate(-90deg);
-    
-    margin-top: -1rem;
-    margin-left: 8.5rem;
-    border-bottom-right-radius: 0rem;
-    border-top-right-radius: 0rem;
 }
-
-.abc{
-    margin-top: 0.8rem;
-}
-
-
-h5{
-    transform: rotate(90deg);
-}
-h6{
-    color: #0E0E10 !important;
-}
-
- 
-  
-    
-    
-    /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .parent__card  {
-    display: contents;
-
-}
-.child__card1,.child__card2, .child__card3 {
-
-    width: 20rem;
-    margin-top: 15rem;
-    height: 90vh;
-}
-.container1, .container2, .container3 {
+.arrange {
+    width: 35%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+  }
+  .side{
+    margin-top: 4rem;
     position: absolute;
-    bottom: 10rem;
-    left: -3rem;
-}
-.row__card{
-    position: absolute;
-    right: 2.5rem;
-    bottom: -1.5rem;
-}
-img, svg {
-    margin-top: -325px !important;
-}
-
-
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-
-}
+    top: -4rem;
+    left :50%;
     
+  }
   
-
   
-
-
-
-
