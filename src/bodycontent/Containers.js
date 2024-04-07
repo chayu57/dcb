@@ -94,6 +94,32 @@ const Containers = () => {
                         </div>
                         </div>
                         </div>
+
+
+                        <div  className="three">
+                       <div className="arrange">
+                        <div className="col-6">
+                            <p className="col__text">power(w1)          </p>
+                        </div>
+                        <div className="col-6">
+                            <Input label="" value={i1*v1} className="xy" disabled />
+                        </div></div>
+                        <div className="arrange">
+                        <div className="col-6">
+                            <p className="col__text">power(w2)</p>
+                        </div>
+                        <div className="col-6">
+                            <Input label="" value={i2*v2} className="xy" disabled />
+                        </div></div>
+                        <div className="arrange">
+                        <div className="col-6">
+                            <p className="col__text">power(w3)</p>
+                        </div>
+                        <div className="col-6">
+                            <Input label="" value={i3*v3} className="xy" disabled />
+                        </div>
+                        </div>
+                        </div>
                     </div>
                 </Card>
                 
